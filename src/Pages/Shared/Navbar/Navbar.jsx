@@ -21,8 +21,8 @@ const Navbar = () => {
                 // className='hidden md:block'
                 src='https://i.ibb.co.com/sRW6q6c/Design-2.png'
                 alt='logo'
-                width='100'
-                height='100'
+                width='150'
+                height='120'
               />
             </Link>
             {/* Dropdown Menu */}
