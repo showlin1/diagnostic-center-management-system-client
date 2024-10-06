@@ -7,7 +7,7 @@ import Container from '../Container';
 import useAuth from '../../../hooks/useAuth';
 
 const Navbar = () => {
-  const { user,logOut } = useAuth();
+  const { user, logOut } = useAuth();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -19,10 +19,10 @@ const Navbar = () => {
             <Link to='/'>
               <img
                 // className='hidden md:block'
-                src='https://i.ibb.co.com/sRW6q6c/Design-2.png'
+                src='https://i.ibb.co.com/mCrq4Qw/diagnosticc-logo.png'
                 alt='logo'
-                width='150'
-                height='120'
+                width='100'
+                height='100'
               />
             </Link>
             {/* Dropdown Menu */}
@@ -70,6 +70,12 @@ const Navbar = () => {
 
                     {user ? (
                       <>
+                        <Link
+                          to='/dashboard'
+                          className='block px-4 py-3 hover:bg-neutral-100 transition font-semibold'
+                        >
+                          Dashboard
+                        </Link>
                         <div
                           onClick={logOut}
                           className='px-4 py-3 hover:bg-neutral-100 transition font-semibold cursor-pointer'

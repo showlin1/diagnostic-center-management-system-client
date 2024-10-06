@@ -102,7 +102,7 @@ const SignUp = () => {
                                     name='name'
                                     id='name'
                                     placeholder='Enter Your Name Here'
-                                    className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-rose-500 bg-gray-200 text-gray-900'
+                                    className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-cyan-500 bg-gray-200 text-gray-900'
                                     data-temp-mail-org='0'
                                 />
                             </div>
@@ -126,7 +126,7 @@ const SignUp = () => {
                                 <select
                                     required
                                     name='bloodGroup'
-                                    className='w-full px-4 py-3 border-rose-300 focus:outline-rose-500 rounded-md'
+                                    className='w-full px-4 py-3 border-cyan-300 focus:outline-cyan-500 rounded-md'
                                 >
                                     <option>A+</option>
                                     <option>A-</option>
@@ -145,7 +145,7 @@ const SignUp = () => {
                                 <select
                                     required
                                     name='district'
-                                    className='w-full px-4 py-3 border-rose-300 focus:outline-rose-500 rounded-md'
+                                    className='w-full px-4 py-3 border-cyan-300 focus:outline-cyan-500 rounded-md'
                                 >
                                     {
                                         districts.map(district => (
@@ -164,7 +164,7 @@ const SignUp = () => {
                                 <select
                                     required
                                     name='upazila'
-                                    className='w-full px-4 py-3 border-rose-300 focus:outline-rose-500 rounded-md'
+                                    className='w-full px-4 py-3 border-rose-300 focus:outline-cyan-500 rounded-md'
                                 >
                                     {
                                         upazilas.map(upazila => (
@@ -186,7 +186,7 @@ const SignUp = () => {
                                     id='email'
                                     required
                                     placeholder='Enter Your Email Here'
-                                    className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-rose-500 bg-gray-200 text-gray-900'
+                                    className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-cyan-500 bg-gray-200 text-gray-900'
                                     data-temp-mail-org='0'
                                 />
                             </div>
@@ -203,7 +203,7 @@ const SignUp = () => {
                                     id='password'
                                     required
                                     placeholder='*******'
-                                    className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-rose-500 bg-gray-200 text-gray-900'
+                                    className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-cyan-500 bg-gray-200 text-gray-900'
                                 />
                             </div>
                             <div>
@@ -219,7 +219,7 @@ const SignUp = () => {
                                     autoComplete='new-password'
                                     id='confirmPassword'
                                     placeholder="Confirm Password"
-                                    className="w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-rose-500 bg-gray-200 text-gray-900"
+                                    className="w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-cyan-500 bg-gray-200 text-gray-900"
                                     required
                                 />
                             </div>
@@ -230,7 +230,7 @@ const SignUp = () => {
                                 <button
                                     disabled={loading}
                                     type='submit'
-                                    className='bg-rose-500 w-full rounded-md py-3 text-white'
+                                    className='bg-cyan-500 w-full rounded-md py-3 text-white'
                                 >
                                     {loading ? <TbFidgetSpinner className='animate-spin m-auto'></TbFidgetSpinner> : 'Continue'}
                                 </button>
@@ -242,7 +242,7 @@ const SignUp = () => {
                         Already have an account?{' '}
                         <Link
                             to='/login'
-                            className='hover:underline hover:text-rose-500 text-gray-600'
+                            className='hover:underline hover:text-cyan-500 text-gray-600'
                         >
                             Login
                         </Link>
