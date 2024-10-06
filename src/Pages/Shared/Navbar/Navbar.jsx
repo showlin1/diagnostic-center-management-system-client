@@ -7,7 +7,7 @@ import Container from '../Container';
 import useAuth from '../../../hooks/useAuth';
 
 const Navbar = () => {
-  const { user } = useAuth();
+  const { user,logOut } = useAuth();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
