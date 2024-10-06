@@ -6,7 +6,7 @@ import {
     TransitionChild,
     DialogTitle,
     DialogPanel,
-} from '@headlessui/react'
+} from '@headlessui/react';
 import ChangePasswordForm from '../Form/ChangePasswordForm';
 
 const ChangePasswordModal = ({ isOpen, closeModal }) => {
