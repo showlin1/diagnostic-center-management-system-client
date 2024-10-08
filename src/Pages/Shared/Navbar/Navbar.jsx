@@ -21,7 +21,7 @@ const Navbar = () => {
                 // className='hidden md:block'
                 src='https://i.ibb.co.com/mCrq4Qw/diagnosticc-logo.png'
                 alt='logo'
-                width='100'
+                width='150'
                 height='100'
               />
             </Link>

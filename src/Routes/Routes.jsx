@@ -8,6 +8,8 @@ import Login from "../Pages/Login/Login";
 import ErrorPages from "../Pages/ErrorPages";
 import DashboardLayout from "../Layout/DashboardLayout";
 import MyProfile from "../Pages/MyProfile/MyProfile";
+import MyUpcomingAppointment from "../Pages/Dashboard/Users/MyUpcomingAppointment";
+import TestResults from "../Pages/Dashboard/Users/TestResults";
 
 export const router = createBrowserRouter([
     {
@@ -36,6 +38,14 @@ export const router = createBrowserRouter([
             {
                 index: true,
                 element: <MyProfile />
+            },
+            {
+                path: 'my-upcoming-appointments',
+                element: <MyUpcomingAppointment />
+            },
+            {
+                path: 'test-results',
+                element: <TestResults />
             },
         ]
     },

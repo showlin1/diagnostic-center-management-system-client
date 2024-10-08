@@ -4,6 +4,7 @@ import LoadingSpinner from "../Shared/LoadingSpinner";
 import { useState } from "react";
 import ChangePasswordModal from "../../Components/Modal/ChangePasswordModal";
 import UpdateProfileModal from "../../Components/Modal/UpdateProfileModal";
+import useRole from "../../hooks/useRole";
 
 
 const MyProfile = () => {
@@ -40,7 +41,7 @@ const MyProfile = () => {
                     </a>
 
                     <p className='p-2 px-4 uppercase text-xs text-white bg-pink-500 rounded-full'>
-                        {role}
+                        {/* {role} */} Role
                     </p>
                     <p className='mt-2 text-xl font-medium text-gray-800 '>
                         User Id: {user?.uid}
